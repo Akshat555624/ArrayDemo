@@ -12,25 +12,25 @@ import java.util.Arrays;
 public class ArrayDemo {
 
     public static void main(String[] args) {
-/*
-        for (int i = 0; i < integers.length; i++) {
+        int[] integers = new int[10];
+
+        /*for (int i = 0; i < integers.length; i++) {
             System.out.print(integers[i] + ", ");
-        }
-*/
+        }*/
+
         /*for (int i : integers) {
             System.out.print(i + ", ");
         }*/
-        int[] integers = new int[10];
         printArrayValues(integers);
-//        initialiseIntegerArray(integers);
-        /*printArrayValues(integers);
+        initialiseIntegerArray(integers);
+        printArrayValues(integers);
         boolean response = searchInArray(integers, 22);
         if (response) {
             System.out.println("Value found!");
         } else {
             System.out.println("Value not found");
         }
-        System.out.println(response ? "value found" : "not found");*/
+        System.out.println(response ? "value found" : "not found");
     }
 
     /**
